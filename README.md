@@ -27,7 +27,7 @@ Steps:
 Clone this repository.
 
 Set up the MySQL database:
-Create a new database (e.g., atm_management_db).
+Create a new database (e.g., bank_management_db).
 Run the provided SQL scripts to create necessary tables (e.g., users, transactions).
 Configure the database connection:
 Update the database credentials (URL, username, password) in the code.
@@ -38,9 +38,6 @@ Usage:
 Launch the application.
 Login with the user credentials (PIN required).
 Access the desired functionalities such as Balance Inquiry, Deposit, Withdrawal, and Transaction History.
-
-Admin Access:
-Admins can log in with their credentials to view user accounts and transaction records.
 
 Database Schema:
 The MySQL database includes the following tables:
